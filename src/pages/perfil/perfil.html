@@ -1,0 +1,40 @@
+
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>perfil</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <img src="https://abrilvip.files.wordpress.com/2017/02/capaprofile.jpg?quality=70&strip=info&resize=680,453">
+
+  <h3>Nome usuário</h3>
+
+  <ion-list inset>
+
+      <ion-item>
+        <ion-input type="text" placeholder="Endereço" value="Rua x"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+          <ion-input type="text" placeholder="Cidade" value="Rio de Janeiro"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-input type="text" placeholder="Cep" value="21411-984"></ion-input>
+          </ion-item>
+        
+          <ion-item>
+              <ion-input type="text" placeholder="Telefone" value="212788-6395"></ion-input>
+            </ion-item>
+    
+    </ion-list>
+    <button ion-button block (click)="atualizar()">Atualizar</button>
+
+ </ion-content>
