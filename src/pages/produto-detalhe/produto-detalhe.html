@@ -15,14 +15,13 @@
 
 <ion-content padding>
     <ion-card>
-        <img src="http://4.bp.blogspot.com/-4fNdYOrc_2s/VFqGg9Qr9WI/AAAAAAAAAKg/0RxqQyuFn6g/s1600/FA5788187DB4E063A1F2A027FF61E5.jpg"/>
+        <img src="../../assets/imgs/{{produto.imagem}}"/>
         <ion-card-content>
           <ion-card-title>
-            Nine Inch Nails Live
+            {{produto.nome}}
             </ion-card-title>
           <p>
-            The most popular industrial group ever, and largely
-            responsible for bringing the music to a mass audience.
+            {{produto.preco | currency:'BRL':true:'1.2-2'}}
           </p>
         </ion-card-content>
       </ion-card>
